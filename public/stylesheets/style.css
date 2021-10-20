@@ -1,0 +1,73 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+label, input {
+  display: block;
+}
+input, select {
+  margin-bottom: 16px;
+}
+a {
+  color: #00B7FF;
+}
+.info-row, .info-container {
+  display: flex;
+}
+.info-row {
+  flex: 1;
+}
+.info-container {
+  gap: 16px;
+}
+.label {
+  font-weight: bold;
+  margin-right: 8px;
+  color: black;
+}
+a {
+  color: black;
+  font-weight: bold;
+}
+.name-row {
+  font-size: 20px;
+}
+.card p {
+  margin: 6px;
+}
+.card {
+  border: 3px solid #999;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 16px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial Rounded MT Bold";
+}
+.address-text p {
+  padding: 0;
+  margin: 0;
+}
+.address-text p:first-child {
+  margin-top: 6px;
+}
+.address-text p:last-child {
+  margin-bottom: 6px;
+}
+.card.premium {
+  border: 3px solid #d7ac57;
+  color: #d7ac57;
+  background-color: rgba(196, 196, 196, 0.3);
+}
+.card.standard {
+  border: 3px solid #999;
+  color: #999;
+  background-color: rgba(196, 196, 196, 0.3);
+}
+.card.bronze {
+  border: 3px solid #714740;
+  color: #714740;
+  background-color: rgba(196, 196, 196, 0.3);
+}
